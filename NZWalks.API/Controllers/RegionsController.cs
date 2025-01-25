@@ -1,14 +1,10 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using NZWalks.API.CustomActionFilters;
 using NZWalks.API.Data;
 using NZWalks.API.Models.Domain;
 using NZWalks.API.Models.DTO;
 using NZWalks.API.Repositories;
-using System.Collections.Generic;
 using System.Text.Json;
 
 namespace NZWalks.API.Controllers

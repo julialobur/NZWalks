@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NZWalks.API.Models.DTO;
-using System.Linq;
-using static System.Net.Mime.MediaTypeNames;
-using NZWalks.API.Models.Domain;
 using Image = NZWalks.API.Models.Domain.Image;
 using NZWalks.API.Repositories;
 
